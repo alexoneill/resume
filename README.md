@@ -2,12 +2,12 @@ resume
 ======
 
 My professional resume. Based on the
-[https://github.com/deedy/Deedy-Resume](Deedy Resume) template.
+[Deedy Resume](https://github.com/deedy/Deedy-Resume) template.
 
 Requirements
 ------------
 
-This resume is [https://www.latex-project.org](LaTeX) based, and requires the
+This resume is [LaTeX](https://www.latex-project.org) based, and requires the
 XeTeX package to compile.
 
 Building

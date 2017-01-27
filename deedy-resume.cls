@@ -53,13 +53,13 @@ Last Updated on \today % Last Updated text
 
 \newcommand{\namesection}[3]{ % Defines the command for the main heading
 \centering{ % Center the name
-\fontsize{40pt}{60pt} % Font size
+\fontsize{32pt}{40pt} % Font size
 \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1 % First name font
 \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2 % Last name font
 } \\[5pt] % Whitespace between the name and contact information
 \centering{ % Center the contact information
 \color{headings} % Use the headings color
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3} % Contact information font
+\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{9pt}{10pt}\selectfont #3} % Contact information font
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
 \vspace{-5pt} % Reduce whitespace after the rule slightly
 }
@@ -75,7 +75,7 @@ Last Updated on \today % Last Updated text
 \newcommand{\sectionspace}{\vspace{5pt}} % Defines a command to add a set amount of space after sections and subsections
 
 \titleformat{\section}{ % Customize the large section titles
-\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{18pt}\selectfont \raggedright\uppercase}{}{0em}{}
 
 \titleformat{\subsection}{ % Customize the subsections and places worked/studied titles
 \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{11pt}{11pt}\selectfont\bfseries\uppercase}{}{0em}{}
